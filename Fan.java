@@ -35,6 +35,14 @@ public double getRadius() {
 public void setRadius(double radius) {
 	this.radius = radius;
 }
+public void switchoff()
+{
+	this.speed=0;
+}
+public void switchOn()
+{
+	this.speed=1;
+}
 public String toString()
 {
 	return String.format("make- [%S] radius- [%s] speed- [%d] isOn-[%b]", make,radius,speed,isOn);
