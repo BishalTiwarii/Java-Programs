@@ -38,6 +38,7 @@ public void setRadius(double radius) {
 public void switchoff()
 {
 	this.speed=0;
+	this.isOn=false;
 }
 public void switchOn()
 {
