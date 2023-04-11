@@ -22,6 +22,7 @@ public class MapTest {
     map.replace(100,"Ben");
     System.out.println(map);
     map.keySet();
+    map.values();
 	   
 	}
 
