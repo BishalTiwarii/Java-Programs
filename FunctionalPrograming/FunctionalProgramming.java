@@ -21,6 +21,9 @@ public class FunctionalProgramming {
         list2.add(500);
         
         basic.printBasicInt(list2);
+        basic.printBasicFiltering(list);
+        basic.printBasicFilteringOdd(list2);
+
 
 	}
 
