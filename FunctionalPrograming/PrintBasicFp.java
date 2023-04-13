@@ -17,4 +17,12 @@ public ArrayList<Integer> printBasicInt(ArrayList<Integer> list)
 	return list;
 			
 	}
+	public void printBasicFiltering(ArrayList<String> list)
+{
+	list.stream().filter(element -> element.endsWith("at")).forEach(element -> System.out.println("element ending with 'at' -> "+element));
+	}
+public void printBasicFilteringOdd(ArrayList<Integer> list)
+{
+	list.stream().filter(element -> element%2==1).forEach(element -> System.out.println("odd values are -> "+element));
+	}
 }
