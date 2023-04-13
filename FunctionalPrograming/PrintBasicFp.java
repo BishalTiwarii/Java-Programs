@@ -25,4 +25,8 @@ public void printBasicFilteringOdd(ArrayList<Integer> list)
 {
 	list.stream().filter(element -> element%2==1).forEach(element -> System.out.println("odd values are -> "+element));
 	}
+	public void printBasicFilteringEven(ArrayList<Integer> list)
+{
+	list.stream().filter(element -> element%2==0).forEach(element -> System.out.println("Even values are -> "+element));
+	}
 }
