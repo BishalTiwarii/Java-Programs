@@ -23,6 +23,7 @@ public class FunctionalProgramming {
         basic.printBasicInt(list2);
         basic.printBasicFiltering(list);
         basic.printBasicFilteringOdd(list2);
+	basic.printBasicFilteringEven(list2);
 
 
 	}
