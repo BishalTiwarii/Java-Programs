@@ -1,0 +1,2 @@
+writing into buffer.txt file
+abcde
