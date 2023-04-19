@@ -1,7 +1,4 @@
 package com.springFramework.springframework.HelloWorld;
-
-import java.util.ArrayList;
-
 import org.springframework.beans.BeansException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 public class App02HelloWorldSpring {
