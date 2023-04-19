@@ -1,14 +1,12 @@
 package com.springFramework.springframework.HelloWorld;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 public class App02HelloWorldSpring {
 
 	public static void main(String[] args) {
-		Collection c= new ArrayList<>();
 		try (//Launch Spring Context
 		var context = new AnnotationConfigApplicationContext(HelloWorldSpringConfiguration.class)) 
 		{
